@@ -1,0 +1,93 @@
+// include-media: breakpoints & media queries
+@import 'include-media/dist/include-media';
+
+@import 'vendor/**/*.scss';
+
+@import 'variables/**/*.scss';
+
+@import 'mixins/**/*.scss';
+
+@import 'partials/**/*.scss';
+
+// @import 'components/**/*.scss';
+
+@include media() {
+    body {
+        background-color: $color-black-1;
+        color: $color-white-1;
+        // font-size: 40px;
+    }
+
+    .vc {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center; // horizontal
+        align-items: center; // vertical
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    #visitor-ip {
+        width: 100%;
+        height: 80px;
+        border: 0;
+        background-color: #222;
+        text-align: center;
+        color: $color-white-1;
+        font-size: 40px;
+        &::selection {
+            background-color: purple;
+        }
+    }
+
+    .button-copy {
+        height: 80px;
+        border: 0;
+        background-color: purple;
+        cursor: pointer;
+        svg {
+            height: 40px;
+            color: $color-white-1;
+        }
+    }
+}
+
+@include media( $bp-xs... ) {
+    .button-copy {
+        width: 100%;
+    }
+}
+
+@include media( $bp-sm... ) {
+}
+
+@include media( $bp-sm-up... ) {
+
+    .input-copy-wrapper {
+        display: flex;
+        justify-content: space-between;
+        .left {
+            flex: 1;
+        }
+        .right {
+            margin-left: 0;
+        }
+    }
+
+
+    .button-copy {
+        width: 80px;
+    }
+}
+
+@include media( $bp-md... ) {
+}
+
+@include media( $bp-lg... ) {
+}
+
+@include media( $bp-xl... ) {
+}
+
