@@ -34,9 +34,10 @@
         height: 80px;
         border: 0;
         background-color: #222;
+        letter-spacing: 0.3rem;
         text-align: center;
+        font-size: 42px;
         color: $color-white-1;
-        font-size: 40px;
         &::selection {
             background-color: purple;
         }
