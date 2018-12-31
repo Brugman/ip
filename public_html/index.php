@@ -37,7 +37,7 @@
 
             <div class="right">
 
-                <button class="button-copy js-clipboard" data-clipboard-target="#visitor-ip" title="Copy to clipboard"><?php include './assets/images/copy-light.svg'; ?></button>
+                <button class="button-copy js-clipboard" data-clipboard-target="#visitor-ip" title="Copy to clipboard"><?php include './assets/images/copy-solid.svg'; ?></button>
 
             </div><!-- right -->
 
