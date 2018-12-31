@@ -3,3 +3,4 @@ node_modules
 public_html/assets/css
 public_html/assets/js
 *.sublime-*
+*.code-*
