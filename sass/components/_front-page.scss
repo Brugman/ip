@@ -1,0 +1,84 @@
+@include media() {
+
+    body {
+        background-color: $color-black-1;
+        color: $color-accent-1;
+    }
+
+    .vc {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center; // horizontal
+        align-items: center; // vertical
+    }
+
+    h1 {
+        font-family: 'Bai Jamjuree';
+        font-size: 60px;
+    }
+
+    #visitor-ip {
+        width: 100%;
+        height: 80px;
+        border: 0;
+        background-color: #222;
+        letter-spacing: 0.3rem;
+        text-align: center;
+        font-family: 'Coda';
+        font-size: 42px;
+        color: $color-accent-1;
+        &::selection {
+            background-color: $color-accent-2;
+        }
+    }
+
+    .button-copy {
+        height: 80px;
+        padding: 0;
+        border: 0;
+        background-color: $color-accent-2;
+        cursor: pointer;
+        svg {
+            height: 40px;
+            color: $color-accent-1;
+        }
+    }
+}
+
+@include media( $bp-xs... ) {
+
+    .button-copy {
+        width: 100%;
+    }
+}
+
+@include media( $bp-sm... ) {
+}
+
+@include media( $bp-sm-up... ) {
+
+    .input-copy-wrapper {
+        display: flex;
+        justify-content: space-between;
+        .left {
+            flex: 1;
+        }
+        .right {
+            margin-left: 0;
+        }
+    }
+
+    .button-copy {
+        width: 80px;
+    }
+}
+
+@include media( $bp-md... ) {
+}
+
+@include media( $bp-lg... ) {
+}
+
+@include media( $bp-xl... ) {
+}
+
