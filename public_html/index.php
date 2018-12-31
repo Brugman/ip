@@ -8,41 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- title -->
-    <title>IP</title>
+    <title>Your IP</title>
 
-<?php
-
-$google_fonts = [
-    'Abel',
-    'Amaranth',
-    'Archivo',
-    'Archivo Black',
-    'Armata',
-    'Athiti',
-    'Bai Jamjuree',
-    'Bungee Hairline',
-    'Bungee Inline',
-    'Bungee Outline',
-    'Bungee Shade',
-    'Coda',
-    'Contrail One',
-    'Dokdo',
-    'Gochi Hand',
-    'Gruppo',
-];
-
-$google_fonts_url = 'https://fonts.googleapis.com/css?family=';
-foreach ( $google_fonts as $font )
-    $google_fonts_url .= str_replace( ' ', '+', $font ).'|';
-
-?>
-    <link rel="stylesheet" href="<?=$google_fonts_url;?>" />
-    <style>
-    h1 { font-family: <?=$google_fonts[6];?>; }
-    #visitor-ip { font-family: <?=$google_fonts[11];?>; }
-    </style>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" href="/favicon.png">
+    <meta name="msapplication-TileImage" content="/favicon.png">
 
     <!-- site css -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bai+Jamjuree|Coda" />
     <link rel="stylesheet" href="/assets/css/ip-theme.min.css" />
 
 </head>
