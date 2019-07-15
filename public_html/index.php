@@ -15,7 +15,6 @@
     <meta name="msapplication-TileImage" content="/favicon.png">
 
     <!-- IP CSS -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bai+Jamjuree|Coda" />
     <link rel="stylesheet" href="/assets/css/ip-theme.min.css" />
 
 </head>
