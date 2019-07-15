@@ -42,7 +42,8 @@ h1 {
         font-size: 42px;
     }
     &::selection {
-        background-color: $color-accent-2;
+        background-color: transparent;
+        color: $color-accent-2;
     }
 }
 
@@ -60,7 +61,7 @@ h1 {
     }
     svg {
         height: 40px;
-        color: $color-accent-1;
+        color: $color-black-2;
     }
 }
 
