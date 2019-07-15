@@ -14,7 +14,7 @@
     <link rel="apple-touch-icon" href="/favicon.png">
     <meta name="msapplication-TileImage" content="/favicon.png">
 
-    <!-- site css -->
+    <!-- IP CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bai+Jamjuree|Coda" />
     <link rel="stylesheet" href="/assets/css/ip-theme.min.css" />
 
@@ -49,7 +49,7 @@
 
 <!-- Clipboard.JS -->
 <script src="/assets/js/vendor/clipboard.js-2.0.4/clipboard.min.js"></script>
-<!-- site js -->
+<!-- IP JS -->
 <script src="/assets/js/ip-theme.min.js"></script>
 
 </body>
