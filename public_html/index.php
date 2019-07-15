@@ -52,10 +52,5 @@
 <!-- site js -->
 <script src="/assets/js/ip-theme.min.js"></script>
 
-<?php if ( in_array( substr( $_SERVER['SERVER_ADDR'], 0, 3 ), array( '127', '192', '172', '10.' ) ) ): ?>
-<!-- Livereload -->
-<script src="http://<?=$_SERVER['HTTP_HOST'];?>:35729/livereload.js"></script>
-<?php endif; // Livereload ?>
-
 </body>
 </html>
