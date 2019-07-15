@@ -1,13 +1,13 @@
 // include-media: breakpoints & media queries
 @import 'include-media/dist/include-media';
 
-@import 'vendor/**/*.scss';
+@import 'vendor/_include-media.scss';
 
-@import 'variables/**/*.scss';
+@import 'variables/_colors.scss';
 
-@import 'mixins/**/*.scss';
+@import 'mixins/_container.scss';
 
-@import 'partials/**/*.scss';
+@import 'partials/_reset.scss';
 
-@import 'components/**/*.scss';
+@import 'components/_front-page.scss';
 
