@@ -11,11 +11,11 @@
     <title>Your IP</title>
 
     <!-- favicon -->
-    <link rel="apple-touch-icon" href="/favicon.png">
-    <meta name="msapplication-TileImage" content="/favicon.png">
+    <link rel="apple-touch-icon" href="./favicon.png">
+    <meta name="msapplication-TileImage" content="./favicon.png">
 
     <!-- IP CSS -->
-    <link rel="stylesheet" href="/assets/css/ip-theme.min.css" />
+    <link rel="stylesheet" href="./assets/css/ip-theme.min.css" />
 
 </head>
 <body>
@@ -47,9 +47,9 @@
 </div><!-- center -->
 
 <!-- Clipboard.JS -->
-<script src="/assets/js/vendor/clipboard.js-2.0.4/clipboard.min.js"></script>
+<script src="./assets/js/vendor/clipboard.js-2.0.4/clipboard.min.js"></script>
 <!-- IP JS -->
-<script src="/assets/js/ip-theme.min.js"></script>
+<script src="./assets/js/ip-theme.min.js"></script>
 
 </body>
 </html>
