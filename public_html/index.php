@@ -31,7 +31,7 @@
 
             <div class="left">
 
-                <input id="visitor-ip" class="" type="text" value="<?=$_SERVER['SERVER_ADDR'];?>">
+                <input id="visitor-ip" class="" type="text" value="<?=$_SERVER['REMOTE_ADDR'];?>">
 
             </div><!-- left -->
 
