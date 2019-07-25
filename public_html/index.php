@@ -47,7 +47,7 @@
 </div><!-- center -->
 
 <!-- Clipboard.JS -->
-<script src="./assets/js/vendor/clipboard.js-2.0.4/clipboard.min.js"></script>
+<script src="./assets/vendor/clipboard.js-2.0.4/clipboard.min.js"></script>
 <!-- IP JS -->
 <script src="./assets/js/ip-theme.min.js"></script>
 
