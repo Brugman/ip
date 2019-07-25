@@ -1,6 +1,6 @@
 # Your IP
 
-An overengineered IP display page for you to host yourself.
+An overengineered IP display page.
 
 ![screenshot](https://raw.githubusercontent.com/Brugman/ip/develop/screenshot.png)
 
