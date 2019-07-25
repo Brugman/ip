@@ -1,7 +1,5 @@
 **/*.map
 docs
 node_modules
-public_html/assets/css
-public_html/assets/js/*.min.js
 *.sublime-*
 *.code-*
