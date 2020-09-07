@@ -1,6 +1,12 @@
 {
   "name": "ip",
   "version": "2.0.1",
+  "description": "An over-engineered \"What is my IP?\" page.",
+  "homepage": "https://github.com/brugman/ip",
+  "license": "MIT",
+  "author": "Tim Brugman (https://timbr.dev/)",
+  "repository": "github:Brugman/ip",
+  "private": "true",
   "scripts": {
     "postinstall": "npx gulp --env=prod"
   },
