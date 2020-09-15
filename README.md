@@ -1,17 +1,31 @@
 # Your IP
 
-An overengineered IP display page.
+> An overengineered IP display page.
 
-![screenshot](https://raw.githubusercontent.com/Brugman/ip/develop/screenshot.png)
+![screenshot](/screenshot.png)
 
-## Install for use
+## Installation
 
-Put the `public_html` dir online.
+1. Map `public_html` to a (sub)domain.
 
-## Install for development
+## Contributing
 
-`npm i`
+Found a bug? Anything you would like to ask, add or change? Please open an issue so we can talk about it.
 
-## Build JS & CSS
+Pull requests are welcome. Please try to match the current code formatting.
 
-`gulp --env=prod`
+### Development installation
+
+1. `npm i`
+
+### Build tools
+
+Build on change: `gulp watch`
+
+Build once: `gulp`
+
+Build once for production: `gulp --env=prod`
+
+## Author
+
+[Tim Brugman](https://github.com/Brugman)
