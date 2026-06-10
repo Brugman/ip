@@ -1,4 +1,5 @@
-document.querySelector( '#visitor-ip' ).select();
-
-new ClipboardJS( '.js-clipboard' );
+document.querySelector('.js-copy').addEventListener( 'click', async () => {
+    const ip = document.querySelector('#visitor-ip').value;
+    await navigator.clipboard.writeText( ip );
+});
 

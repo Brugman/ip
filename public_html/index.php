@@ -38,7 +38,7 @@
 
             <div class="right">
 
-                <button class="button-copy js-clipboard" data-clipboard-target="#visitor-ip" title="Copy to clipboard"><?php include './assets/images/copy-solid.svg'; ?></button>
+                <button class="button-copy js-copy" title="Copy to clipboard"><?php include './assets/images/copy-solid.svg'; ?></button>
 
             </div><!-- right -->
 
@@ -48,8 +48,6 @@
 
 </div><!-- center -->
 
-<!-- Clipboard.JS -->
-<script src="./assets/vendor/clipboard.js-2.0.4/clipboard.min.js"></script>
 <!-- IP JS -->
 <script src="./assets/js/ip-theme.min.js"></script>
 
