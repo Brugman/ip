@@ -16,15 +16,13 @@ Pull requests are welcome. Please try to match the current code formatting.
 
 ### Development installation
 
-1. `npm i`
+1. `pnpm i`
 
 ### Build tools
 
-Build on change: `gulp watch`
+Build once: `pnpm build`
 
-Build once: `gulp`
-
-Build once for production: `gulp --env=prod`
+Build on change: `pnpm watch`
 
 ## Author
 
